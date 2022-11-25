@@ -160,7 +160,7 @@
  * :['A4988', 'A5984', 'DRV8825', 'LV8729', 'TB6560', 'TB6600', 'TMC2100', 'TMC2130', 'TMC2130_STANDALONE', 'TMC2160', 'TMC2160_STANDALONE', 'TMC2208', 'TMC2208_STANDALONE', 'TMC2209', 'TMC2209_STANDALONE', 'TMC26X', 'TMC26X_STANDALONE', 'TMC2660', 'TMC2660_STANDALONE', 'TMC5130', 'TMC5130_STANDALONE', 'TMC5160', 'TMC5160_STANDALONE']
  */
  // Set DIAG_JUMPERS_REMOVED to get rid of warning
- //   "DIAG Jumpers must be removed wehen sensorless homing is not used."
+ //   "DIAG Jumpers must be removed when sensorless homing is not used."
 #define DIAG_JUMPERS_REMOVED
 
 #define X_DRIVER_TYPE  A4988
