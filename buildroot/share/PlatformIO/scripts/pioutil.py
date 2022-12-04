@@ -6,7 +6,7 @@
 def is_pio_build():
     from SCons.Script import DefaultEnvironment
     env = DefaultEnvironment()
-    return not env.IsIntegrationDump() and not env.IsCleanTarget()
+    return not env.IsIntegrationDump()
 
 def get_pio_version():
     from platformio import util
